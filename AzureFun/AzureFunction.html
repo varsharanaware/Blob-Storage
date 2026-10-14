@@ -1,0 +1,12 @@
+﻿<!--1.lunch.setting.json file and add the following code snippet to it. This file is used to store the configuration settings for your Azure Function App.
+
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "BlobEndpoint=https://varshastorageaccount.blob.core.windows.net/;QueueEndpoint=https://varshastorageaccount.queue.core.windows.net/;FileEndpoint=https://varshastorageaccount.file.core.windows.net/;TableEndpoint=https://varshastorageaccount.table.core.windows.net/;SharedAccessSignature=sv=2026-02-06&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2026-10-21T18:30:00Z&st=2026-10-13T17:46:15Z&spr=https&sig=6pL91e6XpDFtV4J4WBP8rcB5E6vtmJBi%2Bva4YN111a4%3D",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureSqlDatabase": "Server=tcp:azureservervarsha.database.windows.net,1433;Initial Catalog=azurefunctiondb;Persist Security Info=False;User ID=Adminn;Password=Admin@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
+//Add azure storage account connection string in the Azure portal for the function app. You can find the connection string in the Access keys section of your storage account.
+  //Azure sql db connection string added-->

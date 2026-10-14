@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureSqlDatabase": ""
+  }
+}
+//Add azure storage account connection string in the Azure portal for the function app. You can find the connection string in the Access keys section of your storage account.
+//Azure sql db connection string added
